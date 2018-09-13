@@ -28,6 +28,10 @@ io.on("connection", (socket) => {
     socket.broadcast.emit("deletepolygon", p);
   });
 
+  socket.on("createobject", (o) => {
+    socket.broadcast.emit("createobject", o);
+  });
+
 });
 
 server.listen(3123);
