@@ -32,6 +32,10 @@ io.on("connection", (socket) => {
     socket.broadcast.emit("createobject", o);
   });
 
+  socket.on("deleteobject", (o) => {
+    socket.broadcast.emit("deleteobject", o);
+  });
+
 });
 
 server.listen(3123);
