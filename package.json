@@ -11,7 +11,7 @@
   "author": "Ville Jänkälä",
   "license": "ISC",
   "dependencies": {
-    "socket.io": "^2.4.0"
+    "socket.io": "^2.5.0"
   },
   "devDependencies": {
     "eslint": "^5.8.0"
